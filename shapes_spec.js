@@ -27,9 +27,4 @@ describe("Putting our shape constructor through the ringer", function(){
     expect(square.updateColor('orange')).toEqual({ name : 'square', sides : 4, color : 'orange' });
   })
 
-  xit('Can not make a shape, if you do not pass in all 3 params', function(){
-    var polygon = new Shape('polygon', 4);
-    expect(polygon).toBeUndefined();
-  });
-
 })
