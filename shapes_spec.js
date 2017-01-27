@@ -4,7 +4,7 @@ describe("Putting our shape constructor through the ringer", function(){
 
   it('the shape constructor exists', function(){
     var square = new Shape('square', 4, 'blue');
-    expect(square).toBeDefined;
+    expect(square).toBeDefined();
   });
 
   xit('A triangle can tell us its name!', function(){
@@ -29,7 +29,7 @@ describe("Putting our shape constructor through the ringer", function(){
 
   xit('Can not make a shape, if you do not pass in all 3 params', function(){
     var polygon = new Shape('polygon', 4);
-    expect(polygon).toBeUndefined;
+    expect(polygon).toBeUndefined();
   });
 
 })
