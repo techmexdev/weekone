@@ -3,10 +3,9 @@ var colors = ["red", "blue", "yellow", "orange", "green", "purple", "green"];
 var sides = [1, 3, 5, 7, 9, 11];
 
 
-
+var sillyShapes = [];
 
 function makeSillyShapes(){
-  var sillyShapes = [];
 
   for (var i = 0; i < 10; i++) {
     // Use your shape constructor function to build 10 random shapes.
@@ -16,7 +15,7 @@ function makeSillyShapes(){
 
     //Dont forget to push your newly made shape into your sillyShapes array.
   }
-  
+
   return sillyShapes
 }
 
